@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>example--webpack-config-prefixed-bulma</title>
+  </head>
+  <body>
+    <!-- Bulma CSS prefixed with `bu-` -->
+    <section class="bu-hero">
+      <div class="bu-hero-body">
+        <div class="bu-container">
+          <h1 class="bu-title">
+            Bulma hero title
+          </h1>
+          <h2 class="bu-subtitle">
+            Bulma hero subtitle
+          </h2>
+        </div>
+      </div>
+    </section>
+    <!-- My own CSS -->
+    <section class="hero">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            My hero title
+          </h1>
+          <h2 class="subtitle">
+            My hero subtitle
+          </h2>
+        </div>
+      </div>
+    </section>
+    <script src="bundle.js"></script>
+  </body>
+</html>

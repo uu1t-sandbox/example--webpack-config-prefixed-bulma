@@ -1,0 +1,35 @@
+{
+  "name": "example--webpack-config-prefixed-bulma",
+  "description": "Webpack configuration to prefix Bulma CSS class selectors",
+  "version": "0.1.0",
+  "author": "Yuichi Tanikawa <u1.tanikawa@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/uu1t-sandbox/example--webpack-config-prefixed-bulma/issues"
+  },
+  "dependencies": {
+    "bulma": "^0.7.4"
+  },
+  "devDependencies": {
+    "css-loader": "^2.1.0",
+    "postcss-loader": "^3.0.0",
+    "postcss-prefixer": "^2.1.1",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.0"
+  },
+  "homepage": "https://github.com/uu1t-sandbox/example--webpack-config-prefixed-bulma",
+  "keywords": [],
+  "license": "MIT",
+  "main": "src/index.js",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uu1t-sandbox/example--webpack-config-prefixed-bulma.git"
+  },
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server",
+    "test": "exit 1"
+  }
+}
